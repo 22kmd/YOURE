@@ -3,7 +3,6 @@ let current = 0;
 
 for (let a of dommes) {
     a.setAttribute("hidden", true);
-    console.log(a);
 }
 
 function reveal_next() {
@@ -14,5 +13,16 @@ function reveal_next() {
     }
 }
 
+function on_body_click() {
+    reveal_next();
+}
+
+function clicked_show_all() {
+    for (let a of dommes) {
+        a.removeAttribute("hidden");
+    }
+    this.stopPropagation();
+}
+
 document.body.onkeydown = reveal_next;
-document.body.onclick = reveal_next;
+document.body.onclick = on_body_click;
