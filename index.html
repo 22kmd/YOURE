@@ -1,5 +1,21 @@
 <html>
-<head></head>
+  <head>
+    <style>
+      body {
+          font-family: sans-serif;
+      }
+
+      .gm {
+          text-transform: uppercase;
+      }
+
+      div {
+          background: ■#eee;
+          margin: 1em;
+          padding: 1em;
+      }
+    </style>
+  </head>
 <body>
     
     <div class="play before">
@@ -549,8 +565,26 @@
     </div>
 
     <div class="play after">
-        Okay, I’d like that book then.
+      Okay, I’d like that book then.
+	</div>
 
+    <script>
+      let dommes = document.getElementsByTagName("div");
+      let current = 0;
 
+      for (let a of dommes) {
+          a.setAttribute("hidden", true);
+          console.log(a);
+      }
+
+      function reveal_next() {
+          if (current < dommes.length) {
+              dommes[current].removeAttribute("hidden");
+              current += 1;
+          }
+      }
+
+      document.body.onkeydown = reveal_next;
+    </script>
 </body>
 </html>
