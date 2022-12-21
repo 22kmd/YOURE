@@ -1,0 +1,70 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+}
+
+
+body {
+    font-family: sans-serif, monospace;
+    background: #2b4c51;
+    color: #fffbf5;
+    padding: 2em;
+    height:100vh;
+    box-sizing: border-box;
+}
+
+.gm {
+    text-transform: uppercase;
+    background: #4c767d;
+    color: #fffbf5;
+}
+
+.play {
+    color: #fffbf5;
+}
+
+.hero {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.dialogue {
+    margin: 1em;
+    padding: 1em;
+}
+
+h1 {
+    font-family: sans-serif, monospace;
+    background: #2b4c51;
+    color: #fffbf5;
+    text-align: center;
+    font-size:16vw;
+
+}
+
+a {
+    color: #fffbf5;
+    background: #4c767d;
+    font-size: 1.6em;
+    text-decoration: none;
+    padding: 5;
+}
+
+/*
+dark
+2b4c51
+less dark
+4c767d
+light
+fffbf5
+green
+88d498
+red
+ff6b6c
+purple
+26081C
+*/
