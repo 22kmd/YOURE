@@ -37,6 +37,11 @@ body {
     padding: 1em;
 }
 
+.navigation {
+    color:#4c767d;
+    text-align: center;
+}
+
 h1 {
     font-family: sans-serif, monospace;
     color: #fffbf5;
