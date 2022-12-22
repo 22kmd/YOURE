@@ -38,7 +38,10 @@ body {
 }
 
 .navigation {
-    color:#4c767d;
+    color: #fffbf5;
+    font-size: 1.6em;
+    text-decoration: none;
+    padding: 15;
     text-align: center;
 }
 
