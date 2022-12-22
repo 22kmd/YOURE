@@ -39,19 +39,18 @@ body {
 
 h1 {
     font-family: sans-serif, monospace;
-    background: #2b4c51;
     color: #fffbf5;
     text-align: center;
     font-size:16vw;
+    padding: 35;
 
 }
 
 a {
     color: #fffbf5;
-    background: #4c767d;
     font-size: 1.6em;
     text-decoration: none;
-    padding: 5;
+    padding: 15;
 }
 
 /*
@@ -66,5 +65,5 @@ green
 red
 ff6b6c
 purple
-26081C
+141522
 */
